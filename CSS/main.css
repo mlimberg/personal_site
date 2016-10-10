@@ -1,0 +1,232 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #543c6e;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background: #67a220;
+  /*http://jxnblk.com/hello-color/?c=67a220*/
+  height: 400px;
+  width: 100%;
+}
+
+header ul {
+  margin-right: 10px;
+}
+
+header li {
+  float: right;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+header a {
+  color: #83D025;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #543c6e;
+  padding: 10px;
+  width: 75px;
+  border-radius: 5px;
+}
+
+header a:hover{
+  transform: scale(1.1);
+  color: #8EFF08;
+}
+
+header h1 {
+  font-size: 90px;
+  color: #543c6e;
+  margin: 135px auto;
+  display: inline-block;
+  border: 5px solid #543c6e;
+  padding: 15px;
+  float: right;  /*don't think this is what I want to center it...*/
+}
+
+#about p {
+  padding: 40px 40px 20px 40px;
+  text-align: center;
+  color: #543c6e;
+  font-size: 20px;
+  line-height: 1.3em;
+  font-style: italic;
+}
+
+#projects {
+  padding-top: 20px;
+}
+
+#projects h1 {
+  font-size: 45px;
+  color: #543c6e;
+  border: 5px solid #543c6e;
+  padding: 15px;
+  margin:0 auto 40px auto;
+  width: 200px;
+}
+
+.projects {
+  margin-bottom: 40px;
+}
+
+.projects h3 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.three-col {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.three-col img{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #543c6e;
+}
+
+.three-col table {
+  margin: 15px auto;
+  width: 300px;
+}
+
+.col-head {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.col-detail {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.three-col a {
+  text-decoration: none;
+}
+
+.three-col a:hover{
+  /*color: #8EFF08;*/
+  color: #67a220;
+}
+
+div a {
+  display: block;
+  text-decoration: none;
+  color: #543c6e;
+  border: 2px solid #543c6e;
+  text-align: center;
+  margin: 20px auto;
+  width: 40px;
+  padding: 5px;
+}
+
+div a:hover {
+  background-color: #543c6e;
+  color: white;
+}
+
+#resume {
+  background-color: #67a220;
+  padding: 40px;
+}
+
+#resume h1 {
+  font-size: 45px;
+  color: #543c6e;
+  border: 5px solid #543c6e;
+  padding: 15px;
+  margin:10px auto 40px auto;
+  width: 200px;
+}
+
+#resume h3 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+
+#contact {
+  background-color: white;
+}
+
+#contact h1 {
+  font-size: 45px;
+  color: #543c6e;
+  border: 5px solid #543c6e;
+  padding: 15px;
+  margin:40px auto 40px auto;
+  width: 250px;
+}
+
+.skills td {
+  font-size: 20px;
+  text-align: center;
+  padding: 8px 60px;
+
+}
+
+table.skills {
+  width: 600px;
+  margin: 20px auto;
+}
+
+textarea {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #D7D7D7;
+}
+
+.input {
+  width: 200px;
+}
+
+
+#message {
+  text-align: left;
+}
+
+input {
+  margin: 5px;
+}
+
+footer {
+  height: 60px;
+  background-color: #543c6e;
+  color: white;
+  width: 100%;
+}
+
+footer p {
+  float: left;
+  color: white;
+  margin:22px 10px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 22px 20px;
+}
+
+footer ul {
+  margin-right: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  text-algin: center;
+  display: inline-block;
+  position: relative;
+}
+
+footer a:hover {
+  color: #83D025;
+}
