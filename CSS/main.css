@@ -41,11 +41,11 @@ header a:hover{
 header h1 {
   font-size: 90px;
   color: #543c6e;
-  margin: 135px auto;
+  margin: 135px auto 135px 25%;
   display: inline-block;
   border: 5px solid #543c6e;
   padding: 15px;
-  float: right;  /*don't think this is what I want to center it...*/
+  /*float: right;  don't think this is what I want to center it...*/
 }
 
 #about p {
