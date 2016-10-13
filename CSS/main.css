@@ -11,6 +11,7 @@ header {
   /*http://jxnblk.com/hello-color/?c=67a220*/
   height: 400px;
   width: 100%;
+  postion: relative;
 }
 
 header ul {
@@ -31,25 +32,34 @@ header a {
   padding: 10px;
   width: 75px;
   border-radius: 5px;
+
 }
 
 header a:hover{
   transform: scale(1.1);
   color: #8EFF08;
+
 }
 
 header h1 {
   font-size: 90px;
   color: #543c6e;
-  /*margin: 135px auto 135px 25%;*/
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 5%;
-  display: inline-block;
   border: 5px solid #543c6e;
-  padding: 15px;
+  width: 50%;
+  height: 50%
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 25%;
+  top: 25%;
   /*float: right;  don't think this is what I want to center it...*/
 }
+
+/*#about {
+  background: url('../images/mountain-sunset.jpg') no-repeat;
+  background-size: cover;
+  height: 500px;
+}*/
 
 #about p {
   padding: 40px 40px 20px 40px;
@@ -135,6 +145,10 @@ div a:hover {
   color: white;
 }
 
+h1#education {
+  margin-top: 60px
+}
+
 #resume {
   background-color: #67a220;
   padding: 40px;
@@ -151,8 +165,58 @@ div a:hover {
 
 #resume h3 {
   font-size: 30px;
-  padding: 10px;
+  padding: 20px;
 }
+
+table.resume {
+  margin: 10px auto;
+  padding: 5px;
+  width: 700px;
+}
+
+td.resume-header {
+  font-weight: bold;
+  padding: 5px;
+  text-align: right;
+}
+
+.resume-detail li:before {
+  content: "* ";
+}
+
+td.resume-detail {
+  text-align: left;
+}
+
+#education {
+  background-color: #67a220;
+  height: 600px;
+}
+
+#education h1 {
+    font-size: 45px;
+    color: #543c6e;
+    border: 5px solid #543c6e;
+    padding: 15px;
+    margin:0 auto 40px auto;
+    width: 200px;
+}
+
+#education img {
+  height: 200px;
+  width: 200px;
+}
+
+.edu-header {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.edu-detail {
+  text-align: left;
+}
+
 
 
 
@@ -172,7 +236,7 @@ div a:hover {
 .skills td {
   font-size: 20px;
   text-align: center;
-  padding: 8px 60px;
+  padding: 10px 60px;
 
 }
 
@@ -190,7 +254,6 @@ textarea {
 .input {
   width: 200px;
 }
-
 
 #message {
   text-align: left;
